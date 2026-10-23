@@ -80,3 +80,26 @@ jupyter nbconvert --to notebook --execute --inplace Etymological_DNA_of_Moby_Dic
 The crawler reads raw wikitext from the article path (`/wiki/<title>?action=raw`), which `robots.txt` allows. It checks `robots.txt` before starting, waits 1 second between requests, sends a descriptive User-Agent and caches every page in `data/crawl/cache/`.
 
 **Data source of the included run.** The notebook prints which source it used. If the crawl output is missing, it falls back to the Etymological WordNet (de Melo 2014), which was itself extracted from Wiktionary (via the `ety` package). Running step 2 above and then re-running the notebook replaces the data with a fresh crawl.
+
+
+
+## Contributions
+
+The work was shared between the two authors.
+
+**Hasnain Saleem**
+- research idea, hypotheses and project proposal
+- word list and chapter segmentation (Step 1)
+- running the Wiktionary crawler and collecting the data (Step 2)
+- classification of origins, database and manual check (Step 3)
+- analysis of frequency, maritime vocabulary and chapters (H1–H3)
+- write-up of the notebook, GitHub repository and presentation
+
+**Hassan Sibtain**
+- finding and evaluating the resources: Wiktionary, the Etymological WordNet,
+  the Project Gutenberg / NLTK corpus and the sources for the nautical glossary
+- graphs and visualisation: the ancestry network and language map (Step 6),
+  the family-tree diagrams and the figures in `figures/`
+- form-vs-meaning comparison (H5) and checking of the results
+
+*AI tools were used to assist with drafting and debugging code and text.*
