@@ -2,7 +2,7 @@
 ### A crawler-based study of word origins in Herman Melville's vocabulary
 
 Final project for **Linguistic Data: Quantitative Analysis and Visualisation** (instructor: Daria Popova).
-Student: Hasnain Saleem Khan.
+Student: Hasnain Saleem & Hassan Sibtain.
 
 **The complete study (hypotheses, method, results, conclusions) is in [`Etymological_DNA_of_Moby_Dick.ipynb`](Etymological_DNA_of_Moby_Dick.ipynb).**
 
